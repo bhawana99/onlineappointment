@@ -1,0 +1,126 @@
+body {
+	overflow-x: hidden;
+	color: #000;
+	-ms-overflow-style: scrollbar;
+	-webkit-font-smoothing: antialiased;
+	/*  background-image:url("G:/my_setup/work_space2/onlineappointment/WebContent/img/background.png");*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+	font-family: sans-serif;
+}
+
+#logo {
+	width: 300px;
+	height: 120px;
+	float: left;
+	display: block;
+	background-color: white;
+}
+
+#tag {
+	height: 120px;
+	padding-top: 10px;
+	text-align: right;
+	font-size: 20px;
+	float: left;
+	font-weight: bold;
+	display: block;
+	background-color: white;
+	color: #000080;
+	font-family: Courier New;
+}
+
+form {
+	padding-top: 20px;
+	width: 30%;
+	margin: auto;
+	/* background-color:rgba(255,255,255,0.5); */
+}
+
+#error_msg{
+	font-size:20px;
+	font-weight: bold;
+	font-family:Times New Roman;
+	
+}
+
+input {
+	width: 100%;
+	padding: 12px;
+	margin-top: 12px;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: black;
+	font-weight: bold;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical;
+}
+
+select {
+	width: 92%;
+	/* padding-left:30px; */
+	padding: 12px;
+	margin-top: 12px;
+	margin-left: 18px;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: black;
+	font-weight: bold;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #3366ff;
+	border: 1px solid #3366ff;
+	color: white;
+	font-weight: bold;
+}
+
+input[type=submit]:hover {
+	background-color: #002699;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+label {
+	/* padding: 12px 12px 12px 0; */
+	color: #0033cc;
+	padding-left: 30px;
+	display: inline-block;
+	font-size: 20px;
+	font-family: Times New Roman;
+	font-weight: 0px;
+}
+
+#a:hover {
+	/* background-color:; */
+	color: #002699;
+	opacity: 0.5;
+	text-decoration: none;
+	color: #053582;
+}
+
+footer {
+	background-color: #053582;
+	height: 50px;
+	width: 100%;
+	/* margin-top:16%; */
+	position: fixed;
+	bottom: 0px;
+}
+
+#copyright {
+	padding-top: 15px;
+	padding-left: 40px;
+	font-family: Courier New;
+	color: white;
+	font-size: 17px;
+}

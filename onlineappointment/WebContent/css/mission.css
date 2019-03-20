@@ -1,0 +1,57 @@
+body{
+	background-color:white;
+	/* background-image:none; */
+}
+#outer-box{
+	background-color:rgb(229,227,227,0.5);
+	width:100%;
+}
+#main{
+	padding-top:30px;
+	padding-bottom:30px;
+	width:80%;
+	margin:auto;
+	box-sizing:border-box;
+	box-shadow: black;
+	/* height:100%; */
+	/* background-color:black; */
+    background-image:url("img/mission.jpg");	
+    background-repeat:no-repeat;
+	background-size:cover;
+	z-index:-1;
+}	
+#a:hover{
+	/* background-color:; */
+	/* opacity:0.; */
+	text-decoration:none;
+	color:#053582;
+}
+#tag{
+	height:120px;
+	padding-top:10px; 
+	text-align:right;
+	font-size:20px;
+	float:left;
+	font-weight:bold;
+    display: block;
+    background-color: white;
+	color:#000080;
+	font-family:Courier New;
+  
+}
+
+#heading{
+	font-size:30px;
+	font-weight:bold;
+	color:white;
+}
+
+#content{
+	margin:auto;
+	width:70%;
+	font-size:25px;
+	font-family:Times New Roman;
+	color:black;
+}
+
+

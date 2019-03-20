@@ -1,0 +1,45 @@
+body {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+table, th, td {
+	border: 2px solid black;
+}
+
+table {
+	width: 90%;
+	border-collapse: collapse;
+}
+
+th {
+	height: 50px;
+	text-align: center;
+	padding: 4px;
+	padding-left: 6px;
+	padding-right: 6px;
+	font-family: sans-serif;
+	background-color: rgba(255, 255, 255, 1.0);
+	font-size: 20px;
+}
+
+td {
+	height: 40px;
+	text-align: center;
+	padding: 4px;
+	padding-left: 6px;
+	padding-right: 6px;
+	font-size: 20px;
+	font-family: sans-serif;
+	background-color: rgba(255, 255, 255, 0.5);
+	font-size: 20px;
+}
+
+caption {
+	font-size: 40px;
+	font-family: sans-serif;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	text-decoration: underline;
+	text-shadow: 2px 2px 4px #000000;
+}

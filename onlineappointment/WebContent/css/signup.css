@@ -1,0 +1,142 @@
+body {
+	overflow-x: hidden;
+	color: #000;
+	-ms-overflow-style: scrollbar;
+	-webkit-font-smoothing: antialiased;
+	/*background-image:url("WebContent/img/background.png");*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+	font-family: sans-serif;
+}
+
+#tag {
+	height: 120px;
+	padding-top: 10px;
+	text-align: right;
+	font-size: 20px;
+	float: left;
+	font-weight: bold;
+	display: block;
+	background-color: white;
+	color: #000080;
+	font-family: Courier New;
+}
+
+#a:hover {
+	/* background-color:; */
+	/* opacity:0; */
+	text-decoration: none;
+	color: #053582;
+}
+
+input[type=text], [type=password], [type=email], select {
+	width: 90%;
+	padding: 12px;
+	border: 1px solid black;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical;
+}
+
+label {
+	/* padding: 12px 12px 12px 0; */
+	color: #0033cc;
+	padding-left: 30px;
+	display: inline-block;
+	font-size: 20px;
+	font-family: Times New Roman;
+	font-weight: 0px;
+}
+
+input[type=submit] {
+	background-color: #3366ff;
+	width: 20%;
+	font-size: 15px;
+	color: white;
+	margin-top: 12px;
+	margin-bottom: 40px;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=button] {
+	background-color: #ff3333;
+	color: white;
+	margin-top: 12px;
+	margin-bottom: 40px;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #002699;
+}
+
+input[type=button]:hover {
+	background-color: #ff0000;
+}
+
+form {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding-top: 20px;
+	width: 40%;
+	margin: auto;
+}
+
+#new_aptmt {
+	color: #00134d;
+	font-size: 25px;
+	padding-left: 15px;
+	font-family: Courier New;
+	text-align: left;
+	font-weight: bold;
+	/* background-color:white; */
+}
+
+#gender {
+	font-size: 17px;
+}
+
+.col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+
+.col-75 {
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer {
+	background-color: #053582;
+	height: 50px;
+	margin-top: 50px;
+}
+
+#copyright {
+	padding-top: 15px;
+	padding-left: 40px;
+	font-family: Courier New;
+	color: white;
+	font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+	.col-25, .col-75, input[type=submit] {
+		width: 100%;
+		margin-top: 0;
+	}
+}
