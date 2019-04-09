@@ -328,4 +328,14 @@
     <servlet-name>TodayAppointmentServlet</servlet-name>
     <url-pattern>/todaypatient</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>OtpGeneratorServlet</display-name>
+    <servlet-name>OtpGeneratorServlet</servlet-name>
+    <servlet-class>project.com.controller.OtpGeneratorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OtpGeneratorServlet</servlet-name>
+    <url-pattern>/generateotp</url-pattern>
+  </servlet-mapping>
 </web-app>
