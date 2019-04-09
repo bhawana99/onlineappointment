@@ -55,7 +55,7 @@
 				</div>
 			</div>
 
-			<a href="#" style="margin-left: 5px">Forgot Your Password?</a>
+			<a href="forgotpassword.jsp" style="margin-left: 5px">Forgot Your Password?</a>
 
 			<div class="row">
 				<div class="col-sm-12">
