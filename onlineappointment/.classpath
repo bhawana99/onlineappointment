@@ -13,5 +13,7 @@
 	<classpathentry kind="lib" path="G:/myjars/servlet-api.jar"/>
 	<classpathentry kind="lib" path="G:/myjars/commons-fileupload-1.2.2.jar"/>
 	<classpathentry kind="lib" path="G:/myjars/commons-io-2.3.jar"/>
+	<classpathentry kind="lib" path="G:/myjars/activation.jar"/>
+	<classpathentry kind="lib" path="G:/myjars/mail.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
